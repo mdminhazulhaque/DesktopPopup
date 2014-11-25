@@ -42,7 +42,7 @@ void Popup::closePopup()
     close();
 }
 
-void Popup::mousePressEvent(QMouseEvent *event)
+void Popup::mousePressEvent(QMouseEvent*)
 {
     emit clicked();
 }
