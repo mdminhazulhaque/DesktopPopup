@@ -4,7 +4,6 @@
 #include <QDialog>
 #include <QDesktopWidget>
 #include <QMouseEvent>
-#include <QDebug>
 
 namespace Ui {
 class Popup;
@@ -19,7 +18,7 @@ public:
     ~Popup();
 
     void showPopup(QString title, QString description);
-    void mousePressEvent(QMouseEvent *event);
+    void mousePressEvent(QMouseEvent*);
 
 private slots:
     void closePopup();
