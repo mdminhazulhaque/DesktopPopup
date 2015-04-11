@@ -9,6 +9,7 @@ Popup::Popup(QWidget *parent) :
 
     setAttribute(Qt::WA_ShowWithoutActivating);
     setWindowFlags(
+                Qt::Window | // Add if popup doesn't show up
                 Qt::FramelessWindowHint | // No window border
                 Qt::WindowDoesNotAcceptFocus | // No focus
                 Qt::WindowStaysOnTopHint // Always on top
