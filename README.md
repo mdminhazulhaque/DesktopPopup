@@ -4,9 +4,9 @@ DesktopPopup
 A simple Qt based desktop popup utility
 
 ## Screenshot ##
-![DesktopPopup] (http://i.imgur.com/Ie7tE3S.png)
+![DesktopPopup](http://i.imgur.com/Ie7tE3S.png)
 
-![DesktopPopupManager] (http://i.imgur.com/OPeQiFd.png)
+![DesktopPopupManager](http://i.imgur.com/OPeQiFd.png)
 
 ## Requirment ##
 * Qt[4|5]
